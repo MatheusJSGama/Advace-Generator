@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&display=swap');
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.advice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    margin: 20px;
+    width: 345px;
+}
+
+.advice .advice-id {
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.advice .advice-description {
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.advice .divider {
+    width: 300px;
+}
+
+.advice .advice-update {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+    cursor: pointer;
+}
+
+@media(min-width: 768px) {
+    .advice{
+        padding-inline: 50px;
+        width: 368px;
+    }
+    .advice p {
+        font-size: 21px;
+        padding: 26px;
+    }
+}
