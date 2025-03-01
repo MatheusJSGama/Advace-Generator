@@ -1,5 +1,7 @@
 # Advace generator
 
+<img src="./Advice-generator-App/imagens/Screenshot-aplication.png">
+
 # Propósito da aplicação:
 - O propósito da aplicação é trabalhar com dados assincronos usando o ASYNC e AWAIT e a manipulaçao da DOM dentro do javascript.
 
